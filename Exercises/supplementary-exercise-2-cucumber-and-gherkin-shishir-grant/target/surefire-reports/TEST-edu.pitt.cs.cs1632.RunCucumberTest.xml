@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="11" failures="0" name="edu.pitt.cs.cs1632.RunCucumberTest" time="0.25" errors="11" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="12.0.2+10"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\shish\Desktop\CS1632_CLASS_SUBMITS\exercises\supplementary-exercise-2-cucumber-and-gherkin-shishir-grant"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\shish\Desktop\CS1632_CLASS_SUBMITS\exercises\supplementary-exercise-2-cucumber-and-gherkin-shishir-grant"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="12.0.2+10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\shish\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\shish\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\Scripts;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files\Java\jdk-12.0.2\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PuTTY\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\MATLAB\R2021a\bin;C:\Users\shish\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\shish\AppData\Local\Microsoft\WindowsApps;C:\Users\shish\AppData\Local\GitHubDesktop\bin;C:\Users\shish\AppData\Local\atom\bin;C:\Users\shish\AppData\Local\Microsoft\WindowsApps;C:\Program Files\apache-maven-3.8.3\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="56.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.3\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\shish"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="user.name" value="shish"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.3\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-12.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="12.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Rent-A-Cat listing" name="List available cats with no cats" time="0.128">
+    <error message="The step &quot;a rent-a-cat facility&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;a rent-a-cat facility&quot;)
+public void aRentACatFacility() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given(&quot;no cats&quot;)
+public void noCats() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I list the cats&quot;)
+public void iListTheCats() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the listing is: {string}&quot;)
+public void theListingIs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;a rent-a-cat facility&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;a rent-a-cat facility&quot;)
+public void aRentACatFacility() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given(&quot;no cats&quot;)
+public void noCats() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I list the cats&quot;)
+public void iListTheCats() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the listing is: {string}&quot;)
+public void theListingIs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario: List available cats with no cats &amp;#27;[90m# edu/pitt/cs/cs1632/rent_a_cat_list_cats.feature:11&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma rent-a-cat facility&amp;#27;[0m              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36mno cats&amp;#27;[0m                            &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI list the cats&amp;#27;[0m                     &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe listing is: &quot;&quot;&amp;#27;[0m                  &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Rent-A-Cat listing" name="List available cats with 1 cat" time="0.015">
+    <error message="The step &quot;a rent-a-cat facility&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;a rent-a-cat facility&quot;)
+public void aRentACatFacility() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given(&quot;a cat with ID {int} and name {string}&quot;)
+public void aCatWithIDAndName(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I list the cats&quot;)
+public void iListTheCats() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the listing is: {string}&quot;)
+public void theListingIs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;a rent-a-cat facility&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;a rent-a-cat facility&quot;)
+public void aRentACatFacility() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given(&quot;a cat with ID {int} and name {string}&quot;)
+public void aCatWithIDAndName(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I list the cats&quot;)
+public void iListTheCats() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the listing is: {string}&quot;)
+public void theListingIs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario: List available cats with 1 cat        &amp;#27;[90m# edu/pitt/cs/cs1632/rent_a_cat_list_cats.feature:19&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma rent-a-cat facility&amp;#27;[0m                   &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36ma cat with ID 1 and name &quot;Jennyanydots&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI list the cats&amp;#27;[0m                          &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe listing is: &quot;ID 1. Jennyanydots\n&quot;&amp;#27;[0m   &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Rent-A-Cat listing" name="List available cats with 2 cats" time="0.014">
+    <error message="The step &quot;a rent-a-cat facility&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;a rent-a-cat facility&quot;)
+public void aRentACatFacility() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given(&quot;a cat with ID {int} and name {string}&quot;)
+public void aCatWithIDAndName(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I list the cats&quot;)
+public void iListTheCats() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the listing is: {string}&quot;)
+public void theListingIs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;a rent-a-cat facility&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;a rent-a-cat facility&quot;)
+public void aRentACatFacility() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given(&quot;a cat with ID {int} and name {string}&quot;)
+public void aCatWithIDAndName(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I list the cats&quot;)
+public void iListTheCats() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the listing is: {string}&quot;)
+public void theListingIs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario: List available cats with 2 cats                            &amp;#27;[90m# edu/pitt/cs/cs1632/rent_a_cat_list_cats.feature:25&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma rent-a-cat facility&amp;#27;[0m                                        &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36ma cat with ID 1 and name &quot;Jennyanydots&quot;&amp;#27;[0m                      &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36ma cat with ID 2 and name &quot;Old Deuteronomy&quot;&amp;#27;[0m                   &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI list the cats&amp;#27;[0m                                               &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe listing is: &quot;ID 1. Jennyanydots\nID 2. Old Deuteronomy\n&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Rent-A-Cat listing" name="List available cats with 3 cats" time="0.012">
+    <error message="The step &quot;a rent-a-cat facility&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;a rent-a-cat facility&quot;)
+public void aRentACatFacility() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given(&quot;a cat with ID {int} and name {string}&quot;)
+public void aCatWithIDAndName(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I list the cats&quot;)
+public void iListTheCats() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the listing is: {string}&quot;)
+public void theListingIs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;a rent-a-cat facility&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;a rent-a-cat facility&quot;)
+public void aRentACatFacility() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given(&quot;a cat with ID {int} and name {string}&quot;)
+public void aCatWithIDAndName(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I list the cats&quot;)
+public void iListTheCats() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the listing is: {string}&quot;)
+public void theListingIs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario: List available cats with 3 cats                                                &amp;#27;[90m# edu/pitt/cs/cs1632/rent_a_cat_list_cats.feature:32&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma rent-a-cat facility&amp;#27;[0m                                                            &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36ma cat with ID 1 and name &quot;Jennyanydots&quot;&amp;#27;[0m                                            &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36ma cat with ID 2 and name &quot;Old Deuteronomy&quot;&amp;#27;[0m                                         &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36ma cat with ID 3 and name &quot;Mistoffelees&quot;&amp;#27;[0m                                            &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI list the cats&amp;#27;[0m                                                                   &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe listing is: &quot;ID 1. Jennyanydots\nID 2. Old Deuteronomy\nID 3. Mistoffelees\n&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="play paper against rock" name="If the game is played 5 times, the scoreboard is &quot;(5:0:0)&quot;." time="0.022">
+    <error message="The step &quot;Scoreboard is &quot;(5:0:0)&quot;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Then(&quot;Scoreboard is {string}&quot;)
+public void scoreboardIs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;Scoreboard is &quot;(5:0:0)&quot;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Then(&quot;Scoreboard is {string}&quot;)
+public void scoreboardIs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario: If the game is played 5 times, the scoreboard is &quot;(5:0:0)&quot;. &amp;#27;[90m# edu/pitt/cs/cs1632/rent_a_cat_rent_cats.feature:9&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mplayer 1 is a &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;paper&quot;&amp;#27;[0m&amp;#27;[32m player&amp;#27;[0m                                  &amp;#27;[90m# edu.pitt.cs.cs1632.RPSStepDefinitions.setPaperPlayer(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mplayer 2 is a &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;rock&quot;&amp;#27;[0m&amp;#27;[32m player&amp;#27;[0m                                     &amp;#27;[90m# edu.pitt.cs.cs1632.RPSStepDefinitions.setRockPlayer(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32msb is a scoreboard&amp;#27;[0m                                            &amp;#27;[90m# edu.pitt.cs.cs1632.RPSStepDefinitions.setScoreboard()&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32man RPS game&amp;#27;[0m                                                   &amp;#27;[90m# edu.pitt.cs.cs1632.RPSStepDefinitions.aRPSgame()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI play the game 5 times&amp;#27;[0m                                        &amp;#27;[90m# edu.pitt.cs.cs1632.RPSStepDefinitions.playGame5Times()&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mScoreboard is &quot;(5:0:0)&quot;&amp;#27;[0m                                        &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="play paper against rock" name="If the game is played 3 times, the scoreboard is &quot;(3:0:0)&quot;." time="0.02">
+    <error message="The step &quot;Scoreboard is &quot;(3:0:0)&quot;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Then(&quot;Scoreboard is {string}&quot;)
+public void scoreboardIs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;Scoreboard is &quot;(3:0:0)&quot;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Then(&quot;Scoreboard is {string}&quot;)
+public void scoreboardIs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario: If the game is played 3 times, the scoreboard is &quot;(3:0:0)&quot;. &amp;#27;[90m# edu/pitt/cs/cs1632/rent_a_cat_rent_cats.feature:14&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mplayer 1 is a &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;paper&quot;&amp;#27;[0m&amp;#27;[32m player&amp;#27;[0m                                  &amp;#27;[90m# edu.pitt.cs.cs1632.RPSStepDefinitions.setPaperPlayer(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mplayer 2 is a &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;rock&quot;&amp;#27;[0m&amp;#27;[32m player&amp;#27;[0m                                     &amp;#27;[90m# edu.pitt.cs.cs1632.RPSStepDefinitions.setRockPlayer(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32msb is a scoreboard&amp;#27;[0m                                            &amp;#27;[90m# edu.pitt.cs.cs1632.RPSStepDefinitions.setScoreboard()&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32man RPS game&amp;#27;[0m                                                   &amp;#27;[90m# edu.pitt.cs.cs1632.RPSStepDefinitions.aRPSgame()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI play the game 3 times&amp;#27;[0m                                        &amp;#27;[90m# edu.pitt.cs.cs1632.RPSStepDefinitions.playGame3Times()&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mScoreboard is &quot;(3:0:0)&quot;&amp;#27;[0m                                        &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Rent-A-Cat returning" name="Attempt to return a cat that does not exist" time="0.007">
+    <error message="The step &quot;a rent-a-cat facility&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;a rent-a-cat facility&quot;)
+public void aRentACatFacility() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given(&quot;a cat with ID {int} and name {string}&quot;)
+public void aCatWithIDAndName(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I return cat number {int}&quot;)
+public void iReturnCatNumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the return is unsuccessful&quot;)
+public void theReturnIsUnsuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I list the cats&quot;)
+public void iListTheCats() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the listing is: {string}&quot;)
+public void theListingIs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;a rent-a-cat facility&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;a rent-a-cat facility&quot;)
+public void aRentACatFacility() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given(&quot;a cat with ID {int} and name {string}&quot;)
+public void aCatWithIDAndName(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I return cat number {int}&quot;)
+public void iReturnCatNumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the return is unsuccessful&quot;)
+public void theReturnIsUnsuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I list the cats&quot;)
+public void iListTheCats() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the listing is: {string}&quot;)
+public void theListingIs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario: Attempt to return a cat that does not exist                                    &amp;#27;[90m# edu/pitt/cs/cs1632/rent_a_cat_return_cats.feature:16&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma rent-a-cat facility&amp;#27;[0m                                                            &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36ma cat with ID 1 and name &quot;Jennyanydots&quot;&amp;#27;[0m                                            &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36ma cat with ID 2 and name &quot;Old Deuteronomy&quot;&amp;#27;[0m                                         &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36ma cat with ID 3 and name &quot;Mistoffelees&quot;&amp;#27;[0m                                            &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI return cat number 4&amp;#27;[0m                                                             &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe return is unsuccessful&amp;#27;[0m                                                        &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI list the cats&amp;#27;[0m                                                                   &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe listing is: &quot;ID 1. Jennyanydots\nID 2. Old Deuteronomy\nID 3. Mistoffelees\n&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Rent-A-Cat returning" name="Rent a cat and attempt to return the same cat twice" time="0.011">
+    <error message="The step &quot;a rent-a-cat facility&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;a rent-a-cat facility&quot;)
+public void aRentACatFacility() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given(&quot;a cat with ID {int} and name {string}&quot;)
+public void aCatWithIDAndName(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I rent cat number {int}&quot;)
+public void iRentCatNumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the rent is successful&quot;)
+public void theRentIsSuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I return cat number {int}&quot;)
+public void iReturnCatNumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the return is successful&quot;)
+public void theReturnIsSuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the return is unsuccessful&quot;)
+public void theReturnIsUnsuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;a rent-a-cat facility&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;a rent-a-cat facility&quot;)
+public void aRentACatFacility() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given(&quot;a cat with ID {int} and name {string}&quot;)
+public void aCatWithIDAndName(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I rent cat number {int}&quot;)
+public void iRentCatNumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the rent is successful&quot;)
+public void theRentIsSuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I return cat number {int}&quot;)
+public void iReturnCatNumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the return is successful&quot;)
+public void theReturnIsSuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the return is unsuccessful&quot;)
+public void theReturnIsUnsuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario: Rent a cat and attempt to return the same cat twice &amp;#27;[90m# edu/pitt/cs/cs1632/rent_a_cat_return_cats.feature:22&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma rent-a-cat facility&amp;#27;[0m                                 &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36ma cat with ID 1 and name &quot;Jennyanydots&quot;&amp;#27;[0m                 &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36ma cat with ID 2 and name &quot;Old Deuteronomy&quot;&amp;#27;[0m              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36ma cat with ID 3 and name &quot;Mistoffelees&quot;&amp;#27;[0m                 &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI rent cat number 1&amp;#27;[0m                                    &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe rent is successful&amp;#27;[0m                                 &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI return cat number 1&amp;#27;[0m                                  &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe return is successful&amp;#27;[0m                               &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI return cat number 1&amp;#27;[0m                                  &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe return is unsuccessful&amp;#27;[0m                             &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Rent-A-Cat returning" name="Rent the first cat and then return the first cat" time="0.008">
+    <error message="The step &quot;a rent-a-cat facility&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;a rent-a-cat facility&quot;)
+public void aRentACatFacility() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given(&quot;a cat with ID {int} and name {string}&quot;)
+public void aCatWithIDAndName(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I rent cat number {int}&quot;)
+public void iRentCatNumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the rent is successful&quot;)
+public void theRentIsSuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I return cat number {int}&quot;)
+public void iReturnCatNumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the return is successful&quot;)
+public void theReturnIsSuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;a rent-a-cat facility&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;a rent-a-cat facility&quot;)
+public void aRentACatFacility() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given(&quot;a cat with ID {int} and name {string}&quot;)
+public void aCatWithIDAndName(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I rent cat number {int}&quot;)
+public void iRentCatNumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the rent is successful&quot;)
+public void theRentIsSuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I return cat number {int}&quot;)
+public void iReturnCatNumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the return is successful&quot;)
+public void theReturnIsSuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario: Rent the first cat and then return the first cat &amp;#27;[90m# edu/pitt/cs/cs1632/rent_a_cat_return_cats.feature:34&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma rent-a-cat facility&amp;#27;[0m                              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36ma cat with ID 1 and name &quot;Jennyanydots&quot;&amp;#27;[0m              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36ma cat with ID 2 and name &quot;Old Deuteronomy&quot;&amp;#27;[0m           &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36ma cat with ID 3 and name &quot;Mistoffelees&quot;&amp;#27;[0m              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI rent cat number 1&amp;#27;[0m                                 &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe rent is successful&amp;#27;[0m                              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI return cat number 1&amp;#27;[0m                               &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe return is successful&amp;#27;[0m                            &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Rent-A-Cat returning" name="Rent the last cat and then return the last cat" time="0.008">
+    <error message="The step &quot;a rent-a-cat facility&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;a rent-a-cat facility&quot;)
+public void aRentACatFacility() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given(&quot;a cat with ID {int} and name {string}&quot;)
+public void aCatWithIDAndName(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I rent cat number {int}&quot;)
+public void iRentCatNumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the rent is successful&quot;)
+public void theRentIsSuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I return cat number {int}&quot;)
+public void iReturnCatNumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the return is successful&quot;)
+public void theReturnIsSuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;a rent-a-cat facility&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;a rent-a-cat facility&quot;)
+public void aRentACatFacility() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given(&quot;a cat with ID {int} and name {string}&quot;)
+public void aCatWithIDAndName(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I rent cat number {int}&quot;)
+public void iRentCatNumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the rent is successful&quot;)
+public void theRentIsSuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I return cat number {int}&quot;)
+public void iReturnCatNumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the return is successful&quot;)
+public void theReturnIsSuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario: Rent the last cat and then return the last cat &amp;#27;[90m# edu/pitt/cs/cs1632/rent_a_cat_return_cats.feature:41&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma rent-a-cat facility&amp;#27;[0m                            &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36ma cat with ID 1 and name &quot;Jennyanydots&quot;&amp;#27;[0m            &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36ma cat with ID 2 and name &quot;Old Deuteronomy&quot;&amp;#27;[0m         &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36ma cat with ID 3 and name &quot;Mistoffelees&quot;&amp;#27;[0m            &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI rent cat number 3&amp;#27;[0m                               &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe rent is successful&amp;#27;[0m                            &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI return cat number 3&amp;#27;[0m                             &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe return is successful&amp;#27;[0m                          &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Rent-A-Cat returning" name="Rent a middling cat and then return that cat" time="0.005">
+    <error message="The step &quot;a rent-a-cat facility&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;a rent-a-cat facility&quot;)
+public void aRentACatFacility() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given(&quot;a cat with ID {int} and name {string}&quot;)
+public void aCatWithIDAndName(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I rent cat number {int}&quot;)
+public void iRentCatNumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the rent is successful&quot;)
+public void theRentIsSuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I return cat number {int}&quot;)
+public void iReturnCatNumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the return is successful&quot;)
+public void theReturnIsSuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;a rent-a-cat facility&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;a rent-a-cat facility&quot;)
+public void aRentACatFacility() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given(&quot;a cat with ID {int} and name {string}&quot;)
+public void aCatWithIDAndName(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I rent cat number {int}&quot;)
+public void iRentCatNumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the rent is successful&quot;)
+public void theRentIsSuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I return cat number {int}&quot;)
+public void iReturnCatNumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the return is successful&quot;)
+public void theReturnIsSuccessful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario: Rent a middling cat and then return that cat &amp;#27;[90m# edu/pitt/cs/cs1632/rent_a_cat_return_cats.feature:49&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma rent-a-cat facility&amp;#27;[0m                          &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36ma cat with ID 1 and name &quot;Jennyanydots&quot;&amp;#27;[0m          &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36ma cat with ID 2 and name &quot;Old Deuteronomy&quot;&amp;#27;[0m       &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36ma cat with ID 3 and name &quot;Mistoffelees&quot;&amp;#27;[0m          &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI rent cat number 2&amp;#27;[0m                             &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe rent is successful&amp;#27;[0m                          &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI return cat number 2&amp;#27;[0m                           &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe return is successful&amp;#27;[0m                        &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+</testsuite>
